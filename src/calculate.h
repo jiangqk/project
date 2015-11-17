@@ -9,7 +9,7 @@
 #include "rr_cfg.h"
 #include "match_road.h"
 
-
+/*
 typedef struct kv_imei{
 	int count;
 	int max_speed_num;
@@ -18,7 +18,7 @@ typedef struct kv_imei{
 	long end_time;
 	long roadID;
 }KV_IMEI;
-
+*/
 typedef struct kv_roadID{
         long IMEI;
         int max_speed;
