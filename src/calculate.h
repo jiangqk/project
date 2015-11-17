@@ -8,7 +8,7 @@
 #include "decode_gps.h"
 #include "rr_cfg.h"
 #include "match_road.h"
-
+/*
 
 typedef struct kv_imei{
 	int count;
@@ -29,7 +29,7 @@ typedef struct kv_roadID{
 
 
 int calculate(GPS_INFO *gps_info, ROAD_INFO *road_info, struct ev_loop *loop);
-
+*/
 #endif
 		
 
