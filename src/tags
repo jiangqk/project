@@ -1,0 +1,236 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ASYNC_LIBEV_THRESHOLD	bk/match_road.c	4;"	d	file:
+ASYNC_LIBEV_THRESHOLD	calculate.c	9;"	d	file:
+ASYNC_LIBEV_THRESHOLD	match_road.c	4;"	d	file:
+BLACK	bk/rbt.h	/^        BLACK = 1$/;"	e	enum:Color
+BUFF_USE_LEN	calculate.c	10;"	d	file:
+CONGESTION_SPEED	bk/relation.h	23;"	d
+Color	bk/rbt.h	/^typedef enum Color {$/;"	g
+Color	bk/rbt.h	/^} Color;$/;"	t	typeref:enum:Color
+FASTWAY	bk/relation.h	11;"	d
+GPS_INFO	decode_gps.h	/^}GPS_INFO;$/;"	t	typeref:struct:gps_info
+HIGHWAY	bk/relation.h	10;"	d
+HIGHWAY_CONGESTION_SPEED	bk/relation.h	12;"	d
+HIGHWAY_SLOWLY_SPEED	bk/relation.h	13;"	d
+IMEI	bk/rbt.h	/^	long long IMEI;$/;"	m	struct:rbt_imei
+IMEI	bk/relation.h	/^        long long IMEI;$/;"	m	struct:person
+IMEI	calculate.h	/^        long IMEI;$/;"	m	struct:kv_roadID
+IMEI	decode_gps.h	/^	long long IMEI;	$/;"	m	struct:gps_info
+KV_IMEI	calculate.h	/^}KV_IMEI;$/;"	t	typeref:struct:kv_imei
+KV_ROADID	calculate.h	/^}KV_ROADID;$/;"	t	typeref:struct:kv_roadID
+LIMIT_CHANNEL_KIND	apply_def.h	/^	LIMIT_CHANNEL_KIND = 1,$/;"	e	enum:__anon1
+MAP_HTTP_FORMAT	bk/match_road.c	/^char MAP_HTTP_FORMAT[] = "POST \/%s HTTP\/1.1\\r\\n"$/;"	v
+MARK_USE_QUEUE	main.c	/^	MARK_USE_QUEUE = 0,$/;"	e	enum:__anon2	file:
+MARK_USE_UCMQ	main.c	/^	MARK_USE_UCMQ,$/;"	e	enum:__anon2	file:
+MAX_CROSS_BEGIN	bk/relation.h	16;"	d
+MAX_CROSS_BEGIN	kv_imei.h	14;"	d
+MAX_CROSS_END	bk/relation.h	17;"	d
+MAX_CROSS_END	kv_imei.h	15;"	d
+MAX_CROSS_SECTION	bk/relation.h	15;"	d
+MAX_GRID_ID	bk/relation.h	18;"	d
+MAX_GRID_ID	kv_imei.h	16;"	d
+MAX_LINK_INDEX	rr_cfg.h	5;"	d
+MAX_NEXT_SEGMENT_ID	bk/relation.h	19;"	d
+MAX_NEXT_SEGMENT_ID	kv_imei.h	17;"	d
+MAX_ROAD_NAME	bk/relation.h	14;"	d
+MAX_ROAD_NAME	kv_imei.h	13;"	d
+MAX_SNIFF_TEMP_QUEUE_NUMBER	main.c	109;"	d	file:
+NORMAL_WAY_CONGESTION_SPEED	bk/relation.h	20;"	d
+NORMAL_WAY_SLOWLY_SPEED	bk/relation.h	21;"	d
+OVERLOOK_DELAY_LIMIT	apply_def.h	5;"	d
+PERSON	bk/relation.h	/^} PERSON;$/;"	t	typeref:struct:person
+PMR_callback	match_road.c	/^void PMR_callback(struct async_ctx *ac, void *reply, void *data)$/;"	f
+POINT	bk/relation.h	/^}POINT;$/;"	t	typeref:struct:point
+RBT_H_	bk/rbt.h	10;"	d
+RBT_IMEI	bk/rbt.h	/^} RBT_IMEI;$/;"	t	typeref:struct:rbt_imei
+RBT_ROAD	bk/rbt.h	/^} RBT_ROAD;$/;"	t	typeref:struct:rbt_road
+RED	bk/rbt.h	/^	RED = 0,$/;"	e	enum:Color
+REDIS_ERR	sniff_evuv_cpp_api.c	16;"	d	file:
+REDIS_OK	sniff_evuv_cpp_api.c	17;"	d	file:
+ROAD_INFO	match_road.h	/^} ROAD_INFO;$/;"	t	typeref:struct:road_info
+ROAD_LEVEL	bk/relation.h	22;"	d
+SLOWLY_SPEED	bk/relation.h	24;"	d
+SPEED	bk/relation.h	/^} SPEED;$/;"	t	typeref:struct:speed
+__CALCULATE_H_	calculate.h	2;"	d
+__DECODE_GPS_H_	decode_gps.h	2;"	d
+__KV_IMEI_H_	kv_imei.h	2;"	d
+__KV_ROAD_H_	kv_road.h	2;"	d
+__MATCH_ROAD_H_	bk/match_road.h	2;"	d
+__MATCH_ROAD_H_	match_road.h	2;"	d
+__RELATION_H_	bk/relation.h	2;"	d
+__supex__addition_session_command__	add_session_cmd.h	10;"	d
+_delete	bk/rbt_imei.c	/^static RBT_IMEI *_delete(RBT_IMEI *root, long IMEI)$/;"	f	file:
+_delete	bk/rbt_road.c	/^static RBT_ROAD *_delete(RBT_ROAD *root, long roadID)$/;"	f	file:
+_vms_erro	sniff_evuv_cpp_api.c	/^static void _vms_erro( void **base )$/;"	f	file:
+_vms_init	sniff_evuv_cpp_api.c	/^static int _vms_init( void **base, int last, struct sniff_task_node *task )$/;"	f	file:
+_vms_new	sniff_evuv_cpp_api.c	/^static void *_vms_new( void )$/;"	f	file:
+appKey	rr_cfg.h	/^	char *appKey;$/;"	m	struct:rr_cfg_file
+average_speed	bk/relation.h	/^        int average_speed;$/;"	m	struct:speed
+avg_speed	calculate.h	/^        int avg_speed;$/;"	m	struct:kv_roadID
+calculate	calculate.c	/^int calculate(GPS_INFO *gps_info, ROAD_INFO *road_info, struct ev_loop *loop)$/;"	f
+change_road	calculate.c	/^static long change_road(GPS_INFO *gps_info, long roadID, KV_IMEI *kv_IMEI, KV_ROADID *kv_roadID)$/;"	f	file:
+cnt	bk/relation.h	/^        int cnt;$/;"	m	struct:person
+color	bk/rbt.h	/^	Color color;$/;"	m	struct:rbt_imei
+color	bk/rbt.h	/^	Color color;$/;"	m	struct:rbt_road
+congestion_flag	bk/relation.h	/^        bool congestion_flag;$/;"	m	struct:point
+congestion_points	bk/relation.h	/^        int congestion_points;$/;"	m	struct:point
+congestion_trough	bk/relation.h	/^        int congestion_trough;$/;"	m	struct:point
+copy_rr_cfg	rr_cfg.c	/^static void copy_rr_cfg(struct rr_cfg_file *dest, struct rr_cfg_file *src)$/;"	f	file:
+copy_swift_cfg	load_swift_cfg.c	/^static void copy_swift_cfg(struct swift_cfg_file *dest, struct swift_cfg_file *src)$/;"	f	file:
+count	calculate.h	/^	int count;$/;"	m	struct:kv_imei
+count	rr_cfg.h	/^	int count;$/;"	m	struct:rr_cfg_file
+decode_body	bk/match_road.c	/^static int decode_body(char *body, ROAD_INFO *road_info, int direction)$/;"	f	file:
+decode_gps	decode_gps.c	/^int decode_gps(const char *data, GPS_INFO *gps_info)$/;"	f
+delete_case	bk/rbt_imei.c	/^static RBT_IMEI *delete_case(RBT_IMEI *node, RBT_IMEI *parent, RBT_IMEI *root)$/;"	f	file:
+delete_case	bk/rbt_road.c	/^static RBT_ROAD *delete_case(RBT_ROAD *node, RBT_ROAD *parent, RBT_ROAD *root)$/;"	f	file:
+direction	decode_gps.h	/^	int direction;$/;"	m	struct:gps_info
+end_time	calculate.h	/^	long end_time;$/;"	m	struct:kv_imei
+end_time	calculate.h	/^        long end_time;  $/;"	m	struct:kv_roadID
+end_time	decode_gps.h	/^	long end_time;$/;"	m	struct:gps_info
+forward_to_server	bk/match_road.c	/^static int forward_to_server(char *host, int port, const char *data, size_t size, struct ev_loop *loop, ASYNC_CALL_BACK fncb, void *with)$/;"	f	file:
+forward_to_server	match_road.c	/^static int forward_to_server(char *host, int port, const char *data, size_t size, struct ev_loop *loop, ASYNC_CALL_BACK fncb, void *with)$/;"	f	file:
+free_rr_cfg	rr_cfg.c	/^static void free_rr_cfg(struct rr_cfg_file *p_cfg)$/;"	f	file:
+free_swift_cfg	load_swift_cfg.c	/^static void free_swift_cfg(struct swift_cfg_file *p_cfg)$/;"	f	file:
+g_buff	calculate.c	/^static __thread char g_buff[ BUFF_USE_LEN ] = {0};$/;"	v	file:
+g_kv_ans	main.c	/^kv_answer_t *g_kv_ans = NULL;$/;"	v
+g_kv_handler	main.c	/^kv_handler_t *g_kv_handler = NULL;$/;"	v
+g_queue_stat_list	main.c	/^static struct queue_stat_info *g_queue_stat_list = NULL;$/;"	v	typeref:struct:queue_stat_info	file:
+g_rr_cfg_file	main.c	/^struct rr_cfg_file g_rr_cfg_file = {};$/;"	v	typeref:struct:rr_cfg_file
+g_sniff_cfg_list	main.c	/^struct sniff_cfg_list g_sniff_cfg_list = {};$/;"	v	typeref:struct:sniff_cfg_list
+g_swift_cfg_list	main.c	/^struct swift_cfg_list g_swift_cfg_list = {};$/;"	v	typeref:struct:swift_cfg_list
+get_IMEI_from_kv	kv_imei.c	/^int get_IMEI_from_kv(long IMEI, KV_IMEI *kv_IMEI)$/;"	f
+get_IMEI_road	calculate.c	/^int get_IMEI_road(long IMEI, long roadID, KV_IMEI *kv_IMEI, GPS_INFO *gps_info)$/;"	f
+get_IMEI_to_mm	kv_imei.c	/^void get_IMEI_to_mm(KV_IMEI *kv_IMEI,kv_answer_t *ans)$/;"	f
+get_imei_road	bk/rbt_imei.c	/^ROAD_INFO *get_imei_road(RBT_IMEI *root, long long IMEI)$/;"	f
+get_person_imei	bk/relation.c	/^char *get_person_imei(PERSON *person)$/;"	f
+get_redis_active_user_value	bk/rbt_road.c	/^char *get_redis_active_user_value(RBT_ROAD *root, long roadID)$/;"	f
+get_redis_road_info_value	bk/rbt_imei.c	/^char *get_redis_road_info_value(RBT_IMEI *root, long long IMEI)$/;"	f
+get_redis_speed_info_value	bk/rbt_road.c	/^char *get_redis_speed_info_value(RBT_ROAD *root, long roadID)$/;"	f
+get_road_id	bk/relation.c	/^char *get_road_id(ROAD_INFO *road)$/;"	f
+get_road_speed	bk/relation.c	/^char *get_road_speed(SPEED *speed, ROAD_INFO *road)$/;"	f
+get_speed_info	bk/rbt_road.c	/^SPEED *get_speed_info(RBT_ROAD *root, long roadID)$/;"	f
+gps_info	decode_gps.h	/^typedef struct gps_info{$/;"	s
+help	add_session_cmd.c	/^static bool help(void* user, void *data)$/;"	f	file:
+host	rr_cfg.h	/^	char    *host;$/;"	m	struct:rr_link
+http_callback	bk/match_road.c	/^void http_callback(struct async_ctx *ac, void *reply, void *data)$/;"	f
+imei_destory	bk/rbt_imei.c	/^int imei_destory(RBT_IMEI **root)$/;"	f
+imei_insert	bk/rbt_imei.c	/^int imei_insert(RBT_IMEI **root, ROAD_INFO *road, long long IMEI, int speed, long time)$/;"	f
+import_to_redis	sniff_evuv_cpp_api.c	/^int import_to_redis(char command[],void * loop,char host[],unsigned short port)$/;"	f
+init_rr_cfg	rr_cfg.c	/^static void init_rr_cfg(struct rr_cfg_file *p_cfg)$/;"	f	file:
+init_session_cmd	add_session_cmd.c	/^void init_session_cmd()$/;"	f
+init_swift_cfg	load_swift_cfg.c	/^static void init_swift_cfg(struct swift_cfg_file *p_cfg)$/;"	f	file:
+insert_case	bk/rbt_imei.c	/^static void insert_case(RBT_IMEI *node, RBT_IMEI **root)$/;"	f	file:
+insert_case	bk/rbt_road.c	/^static void insert_case(RBT_ROAD *node, RBT_ROAD **root)$/;"	f	file:
+insert_road_info	bk/rbt_road.c	/^int insert_road_info(RBT_ROAD **root, ROAD_INFO *road, int speed, long time, long long IMEI, int point_speed[], int point_cnt)$/;"	f
+judge_angle	bk/match_road.c	/^static int judge_angle(int angle, int direction)$/;"	f	file:
+kv_cmd	kv_imei.c	/^int kv_cmd(char * buff,kv_answer_t *ans)$/;"	f
+kv_imei	calculate.h	/^typedef struct kv_imei{$/;"	s
+kv_roadID	calculate.h	/^typedef struct kv_roadID{$/;"	s
+last_speed	bk/relation.h	/^        int last_speed;$/;"	m	struct:speed
+latitude	decode_gps.h	/^	double latitude;$/;"	m	struct:gps_info
+left	bk/rbt.h	/^	struct rbt_imei *left, *right, *parent;$/;"	m	struct:rbt_imei	typeref:struct:rbt_imei::rbt_imei
+left	bk/rbt.h	/^	struct rbt_road *left, *right, *parent;$/;"	m	struct:rbt_road	typeref:struct:rbt_road::rbt_road
+links	rr_cfg.h	/^	struct rr_link links[ MAX_LINK_INDEX ];$/;"	m	struct:rr_cfg_file	typeref:struct:rr_cfg_file::rr_link
+list	apply_def.h	/^	SNIFF_WORKER_PTHREAD *list;$/;"	m	struct:mount_info
+load_sniff_cfg_file	load_sniff_cfg.c	/^void load_sniff_cfg_file(struct sniff_cfg_file *p_cfg, char *name)$/;"	f
+load_swift_cfg_file	load_swift_cfg.c	/^bool    load_swift_cfg_file(struct swift_cfg_file *p_cfg, char *name)$/;"	f
+longitude	decode_gps.h	/^	double longitude;$/;"	m	struct:gps_info
+main	main.c	/^int main(int argc, char** argv)$/;"	f
+map_server_host	rr_cfg.h	/^	char *map_server_host;$/;"	m	struct:rr_cfg_file
+map_server_port	rr_cfg.h	/^	short map_server_port;$/;"	m	struct:rr_cfg_file
+mark_lookup	main.c	/^	int mark_lookup;$/;"	m	struct:queue_stat_info	file:
+mark_report	main.c	/^	int mark_report;$/;"	m	struct:queue_stat_info	file:
+match_road	bk/match_road.c	/^int match_road(struct ev_loop *loop, GPS_INFO *gps_info)$/;"	f
+match_road	match_road.c	/^int match_road(struct ev_loop *loop, GPS_INFO *gps_info)$/;"	f
+max_speed	bk/relation.h	/^        int max_speed;$/;"	m	struct:person
+max_speed	bk/relation.h	/^        int max_speed;$/;"	m	struct:speed
+max_speed	calculate.h	/^	int max_speed;$/;"	m	struct:kv_imei
+max_speed	calculate.h	/^        int max_speed;$/;"	m	struct:kv_roadID
+max_speed	decode_gps.h	/^	int max_speed;$/;"	m	struct:gps_info
+max_speed_num	calculate.h	/^	int max_speed_num;$/;"	m	struct:kv_imei
+mount_info	apply_def.h	/^struct mount_info {$/;"	s
+netpkgstat	add_session_cmd.c	/^static bool netpkgstat(void *user, void *data)$/;"	f	file:
+next	apply_def.h	/^	struct mount_info *next;$/;"	m	struct:mount_info	typeref:struct:mount_info::mount_info
+next	bk/relation.h	/^        struct person *next;$/;"	m	struct:person	typeref:struct:person::person
+parent	bk/rbt.h	/^	struct rbt_imei *left, *right, *parent;$/;"	m	struct:rbt_imei	typeref:struct:rbt_imei::
+parent	bk/rbt.h	/^	struct rbt_road *left, *right, *parent;$/;"	m	struct:rbt_road	typeref:struct:rbt_road::
+person	bk/rbt.h	/^	PERSON *person;$/;"	m	struct:rbt_road
+person	bk/relation.h	/^typedef struct person {$/;"	s
+person_delete	bk/relation.c	/^int person_delete(PERSON **person, long long IMEI)$/;"	f
+person_destory	bk/relation.c	/^int person_destory(PERSON *person)$/;"	f
+person_insert	bk/relation.c	/^int person_insert(PERSON **person, int speed, long time, long long IMEI, int level, int point_speed[], int point_cnt)$/;"	f
+person_speed	bk/relation.c	/^int person_speed(PERSON *person, SPEED **speed)$/;"	f
+pmr_abnormal_cb	match_road.c	/^static void pmr_abnormal_cb(const struct async_obj *obj, void *data)$/;"	f	file:
+point	bk/relation.h	/^typedef struct point {$/;"	s
+point_cnt	decode_gps.h	/^	int point_cnt;$/;"	m	struct:gps_info
+points	bk/relation.h	/^        POINT points;$/;"	m	struct:person
+points	bk/relation.h	/^        POINT points;$/;"	m	struct:speed
+port	rr_cfg.h	/^	int     port;$/;"	m	struct:rr_link
+queue_stat_info	main.c	/^struct queue_stat_info {$/;"	s	file:
+rbt_imei	bk/rbt.h	/^typedef struct rbt_imei {$/;"	s
+rbt_road	bk/rbt.h	/^typedef struct rbt_road {$/;"	s
+read_rr_cfg	rr_cfg.c	/^bool read_rr_cfg(struct rr_cfg_file *p_cfg, char *name)$/;"	f
+reload_swift_cfg_file	load_swift_cfg.c	/^bool    reload_swift_cfg_file(struct swift_cfg_file *p_cfg, const char *filename)$/;"	f
+right	bk/rbt.h	/^	struct rbt_imei *left, *right, *parent;$/;"	m	struct:rbt_imei	typeref:struct:rbt_imei::
+right	bk/rbt.h	/^	struct rbt_road *left, *right, *parent;$/;"	m	struct:rbt_road	typeref:struct:rbt_road::
+road	bk/rbt.h	/^	ROAD_INFO *road;$/;"	m	struct:rbt_imei
+road	bk/rbt.h	/^	ROAD_INFO *road;$/;"	m	struct:rbt_road
+roadID	bk/rbt.h	/^	long roadID;$/;"	m	struct:rbt_road
+roadID	calculate.h	/^	long roadID;$/;"	m	struct:kv_imei
+road_delete	bk/rbt_road.c	/^int road_delete(RBT_ROAD **root)$/;"	f
+road_delete_imei	bk/rbt_road.c	/^int road_delete_imei(RBT_ROAD *root, long roadID, long long IMEI)$/;"	f
+road_destory	bk/relation.c	/^int road_destory(ROAD_INFO *road)$/;"	f
+road_info	match_road.h	/^typedef struct road_info {$/;"	s
+road_insert	bk/relation.c	/^int road_insert(ROAD_INFO **road, ROAD_INFO *road_info)$/;"	f
+road_rootID	match_road.h	/^	long road_rootID;$/;"	m	struct:road_info
+rotate_left	bk/rbt_imei.c	/^static RBT_IMEI *rotate_left(RBT_IMEI *node, RBT_IMEI *root)$/;"	f	file:
+rotate_left	bk/rbt_road.c	/^static RBT_ROAD *rotate_left(RBT_ROAD *node, RBT_ROAD *root)$/;"	f	file:
+rotate_right	bk/rbt_imei.c	/^static RBT_IMEI *rotate_right(RBT_IMEI *node, RBT_IMEI *root)$/;"	f	file:
+rotate_right	bk/rbt_road.c	/^static RBT_ROAD *rotate_right(RBT_ROAD *node, RBT_ROAD *root)$/;"	f	file:
+rr_cfg_file	rr_cfg.h	/^struct rr_cfg_file {$/;"	s
+rr_link	rr_cfg.h	/^struct rr_link {$/;"	s
+same_road	calculate.c	/^static int same_road(GPS_INFO *gps_info, long roadID, KV_IMEI *kv_IMEI)$/;"	f	file:
+search_data	bk/rbt_imei.c	/^static RBT_IMEI *search_data(long long IMEI, RBT_IMEI *root, RBT_IMEI **save)$/;"	f	file:
+search_data	bk/rbt_road.c	/^static RBT_ROAD *search_data(long roadID, RBT_ROAD *root, RBT_ROAD **save)$/;"	f	file:
+secret	rr_cfg.h	/^        char *secret;$/;"	m	struct:rr_cfg_file
+segmentID	match_road.h	/^	int segmentID;$/;"	m	struct:road_info
+session_dispatch_task	add_session_cmd.c	/^static void session_dispatch_task(struct session_task *service)$/;"	f	file:
+set_IMEI_to_kv	kv_imei.c	/^int set_IMEI_to_kv(GPS_INFO *gps_info, long roadID, KV_IMEI *kv_IMEI, int flag)$/;"	f
+set_roadID_to_kv	kv_road.c	/^int set_roadID_to_kv(KV_IMEI * kv_IMEI, KV_ROADID *kv_roadID, GPS_INFO *gps_info, long roadID)$/;"	f
+shift_lookup	main.c	/^	unsigned int shift_lookup;$/;"	m	struct:queue_stat_info	file:
+shift_report	main.c	/^	unsigned int shift_report;$/;"	m	struct:queue_stat_info	file:
+slowly_flag	bk/relation.h	/^        bool slowly_flag;$/;"	m	struct:point
+slowly_points	bk/relation.h	/^        int slowly_points;$/;"	m	struct:point
+slowly_trough	bk/relation.h	/^        int slowly_trough;$/;"	m	struct:point
+sniff_task_lookup	main.c	/^static bool sniff_task_lookup(void *user, void *task)$/;"	f	file:
+sniff_task_report	main.c	/^static bool sniff_task_report(void *user, void *task)$/;"	f	file:
+sniff_vms_call	sniff_evuv_cpp_api.c	/^int sniff_vms_call(void *user, void *task)$/;"	f
+sniff_vms_init	sniff_evuv_cpp_api.c	/^int sniff_vms_init(void *user, void *task)$/;"	f
+speed	bk/rbt.h	/^	SPEED *speed;$/;"	m	struct:rbt_road
+speed	bk/rbt.h	/^	int speed;$/;"	m	struct:rbt_imei
+speed	bk/relation.h	/^typedef struct speed {$/;"	s
+start_time	decode_gps.h	/^	long start_time;$/;"	m	struct:gps_info
+step_lookup	main.c	/^	int step_lookup;$/;"	m	struct:queue_stat_info	file:
+str_time	calculate.h	/^	long str_time;$/;"	m	struct:kv_imei
+sum_speed	bk/relation.h	/^        long sum_speed;$/;"	m	struct:person
+swap	main.c	/^	struct supex_task_list swap;$/;"	m	struct:queue_stat_info	typeref:struct:queue_stat_info::supex_task_list	file:
+swift_entry_init	main.c	/^static void swift_entry_init(void)$/;"	f	file:
+swift_pthrd_init	main.c	/^static void swift_pthrd_init(void *user)$/;"	f	file:
+swift_reload_cfg	main.c	/^static void swift_reload_cfg(void)$/;"	f	file:
+swift_shut_down	main.c	/^static void swift_shut_down(void)$/;"	f	file:
+swift_vms_call	swift_cpp_api.c	/^int swift_vms_call( void *W )$/;"	f
+swift_vms_init	swift_cpp_api.c	/^int swift_vms_init( void *W )$/;"	f
+tasks	add_session_cmd.c	/^static bool tasks(void *user, void *data)$/;"	f	file:
+temp	main.c	/^	struct sniff_task_node temp;$/;"	m	struct:queue_stat_info	typeref:struct:queue_stat_info::sniff_task_node	file:
+time	bk/rbt.h	/^	long time;$/;"	m	struct:rbt_imei
+time	bk/relation.h	/^        long time;$/;"	m	struct:person
+time	bk/relation.h	/^        long time;$/;"	m	struct:speed
+total_points	bk/relation.h	/^        int total_points;$/;"	m	struct:point
+traffic_insert	bk/relation.c	/^int traffic_insert(ROAD_INFO **road, ROAD_INFO *road_info, SPEED *speed)$/;"	f
+update_to_redis	calculate.c	/^static int update_to_redis(KV_ROADID *kv_roadID, long old_roadID, struct ev_loop * loop)$/;"	f	file:
+used_time	calculate.h	/^        long used_time;$/;"	m	struct:kv_roadID
