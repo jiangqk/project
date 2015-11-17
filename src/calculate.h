@@ -27,9 +27,9 @@ typedef struct kv_roadID{
         long used_time;
 }KV_ROADID;
 
-
-int calculate(GPS_INFO *gps_info, ROAD_INFO *road_info, struct ev_loop *loop);
 */
+int calculate(GPS_INFO *gps_info, ROAD_INFO *road_info, struct ev_loop *loop);
+
 #endif
 		
 
