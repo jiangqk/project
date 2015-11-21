@@ -17,7 +17,7 @@
 #include "pool_api.h"
 #include "libkv.h"
 
-#include "sniff_evuv_cpp_api.h"
+//#include "sniff_evuv_cpp_api.h"
 
 #include "add_session_cmd.h"
 
